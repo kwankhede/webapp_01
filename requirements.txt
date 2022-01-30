@@ -7,6 +7,6 @@ pandas==1.2.4
 plotly_express==0.4.1
 Plotly.figure_factory
 plotly.graph_objects
-
+pip==22.0
 
 
