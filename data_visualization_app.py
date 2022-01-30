@@ -12,12 +12,12 @@ st.set_page_config(layout="centered")
 
 #title of the app 
 st.title("ANALYSIS OF SANGHAMITRA.STORE'S SALES")
-st.subheader("(From start to Jan 2022)")
+st.subheader("(From March 2020 to January 2022)")
 
 
     
 #table for category wise sales
-st.title("TOTAL SALES OF SANGHAMITRA")
+st.subheader("TOTAL SALES OF SANGHAMITRA")
 st.subheader("(Category wise)")
 data = pd.read_csv("categories.csv")
 st.write(data)
