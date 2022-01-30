@@ -86,7 +86,7 @@ import folium
 codes = pd.read_csv("cities.csv")
 
 # load the customer information 
-data = pd.read_csv("~jan_2022.csv")
+data = pd.read_csv("jan_2022.csv")
 
 # get the latitude and logitude for customer's cities. 
 cities_with_cordinates = pd.merge(codes, data, on='City')
