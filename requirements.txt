@@ -5,8 +5,8 @@ streamlit==1.5.0
 streamlit-folium==0.4.0
 pandas==1.2.4
 plotly_express==0.4.1
-Plotly.figure_factory==5.5.0
-plotly.graph_objects==5.5.0
+Plotly.figure_factory==0.4.1
+plotly.graph_objects==0.4.1
 pip==22.0
 
 
